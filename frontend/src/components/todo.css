@@ -1,0 +1,65 @@
+*{margin: 0px;
+padding: 0px;}
+/* Todo.css */
+.todo-container.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .todo-container.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .bloc {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+  }
+  
+  .tabs.active-tabs {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content.active-content {
+    display: block;
+  }
+  
+  button {
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+ .contentss{
+   display: flex;
+   border: 1px soild #007bff;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+.div{
+  width: 20%;
+  height: 100px;
+  background-color: chartreuse;
+  border-radius: 8px;
+  border: 1px soild black;
+  margin: 12px;
+}
